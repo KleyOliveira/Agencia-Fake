@@ -55,15 +55,16 @@ a{
     padding: 13px 30px;
     margin-left: 30px;
     border-radius: 3px;
+    color: #f5f5f5;
 }
 
 .navbar a.nav-btn:hover{
     border: none;
     background-color: #f37100;
-    color: #000;
+    color: #f5f5f5;
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
     .navbar{
         display: none;
     }
@@ -76,10 +77,10 @@ a{
         flex: 100%;
     }
     
-    .img-headline{
+    .headline{
         flex: 100%;
     }
-}
+} */
 
 /* Fim Header */
 
@@ -109,12 +110,15 @@ a{
     text-transform: uppercase;
     border-radius: 5px;
     margin-top: 20px;
+    color: #f5f5f5;
 }
 
 .img-headline{
     margin-right: 10%;
     flex: 40%;
 }
+
+/* Card */
 
 .content{
     display: inline-block;
@@ -142,9 +146,72 @@ a{
     width: 30%;
     padding: 50px;
     margin: 1%;
-    border: 1px solid #f70;
+    border: 1px solid #ff7700;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.card img{
+    margin-bottom: 5px;
 }
 
 .card h3{
     margin-bottom: 10px;
+}
+
+.texto-oculto{
+    display: none;
+}
+
+.card:hover{
+    background-color: #ff7700;
+    color: #fff;
+    padding: 70px;
+}
+
+.card:hover img{
+    display: none;
+}
+
+.card:hover .card-text{
+    display: none;
+}
+
+.card:hover .texto-oculto{
+    display: block;
+}
+
+/* Fim Card */
+/* Fim Main */
+
+/* Footer */
+
+.footer-content{
+    margin-top: 100px;
+    height: 300px;
+    background-color: #ff7700;
+    color: #f5f5f5;
+    text-align: center;
+}
+
+.footer-text{
+    padding: 100px;
+}
+
+.footer-text a{
+    color: #f5f5f5;
+    text-decoration: none;
+    font-weight: normal;
+    padding: 20px 25px;
+}
+
+/* Fim Footer */
+/* Whatsapp */
+
+.wpp{
+    height: 75px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
 }
