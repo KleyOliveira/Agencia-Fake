@@ -22,9 +22,8 @@ body{
     align-items: center;
 }
 
-.logo h1 a{
-    color: #f70;
-    font-weight: normal;
+.logo h1 a img{
+    height: 50px;
 }
 
 .navbar ul{
@@ -60,7 +59,7 @@ a{
 
 .navbar a.nav-btn:hover{
     border: none;
-    background-color: #f37100;
+    background-color: #ee6f00;
     color: #f5f5f5;
 }
 
@@ -111,6 +110,10 @@ a{
     border-radius: 5px;
     margin-top: 20px;
     color: #f5f5f5;
+}
+
+.contact-btn:hover{
+    background-color: #ee6f00;
 }
 
 .img-headline{
@@ -188,7 +191,7 @@ a{
 
 .footer-content{
     margin-top: 100px;
-    height: 300px;
+    height: 400px;
     background-color: #ff7700;
     color: #f5f5f5;
     text-align: center;
@@ -198,11 +201,8 @@ a{
     padding: 100px;
 }
 
-.footer-text a{
-    color: #f5f5f5;
-    text-decoration: none;
-    font-weight: normal;
-    padding: 20px 25px;
+.footer-text a img{
+    height: 40px;
 }
 
 /* Fim Footer */
